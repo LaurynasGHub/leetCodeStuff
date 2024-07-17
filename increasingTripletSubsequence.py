@@ -18,12 +18,34 @@ class Solution:
                 return True
         
         return False
+      
+# solution 2 gives True on case from solution 1, but is very slow
 
 def solution2(self, nums: List[int]) -> bool:
-            # iterate trough numbers one by one
-            # num = nums[i]
-            # for a in range (i, len(nums)):
-            #   if nums[i] < nums[a]:
-            #       for b in range (a, len(nums)):
-            #           if nums[a] < nums[b]:
-            #               return True
+        for i in range (0, len(nums)-2):
+            for a in range (i, len(nums)-1):
+                if nums[i] < nums[a]:
+                    for b in range(a, len(nums)):
+                        if nums[a] < nums[b]:
+                            return True
+
+  # solution 3, trying to optimize it
+  
+  def solution3(self, nums: List[int]) -> bool:
+        if len(nums) < 3:
+            return False
+
+        # init first smallest and second smallest as infinite values
+        first = float('inf')
+        second = float('inf')
+        # itterate the array
+        for n in nums:
+            # if n is smaller than the number than change them
+            if n <= first:
+                first = n  # smallest so far
+            elif n <= second:
+                second = n  # second smallest
+            else:
+                return True  # found a triplet
+        
+        return False
