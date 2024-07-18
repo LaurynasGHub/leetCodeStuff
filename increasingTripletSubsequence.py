@@ -5,7 +5,7 @@ class Solution:
   # [20,100,10,12,5,13] should give True, because
   # 10,12,13
   
-    def increasingTriplet(self, nums: List[int]) -> bool:
+def increasingTriplet(self, nums: List[int]) -> bool:
         for i in range (0, len(nums)-2):
             print ('i-',i)
             if i == len(nums)-1:
@@ -31,7 +31,7 @@ def solution2(self, nums: List[int]) -> bool:
 
   # solution 3, trying to optimize it
   
-  def solution3(self, nums: List[int]) -> bool:
+def solution3(self, nums: List[int]) -> bool:
         if len(nums) < 3:
             return False
 
