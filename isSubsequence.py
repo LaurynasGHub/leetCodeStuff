@@ -1,6 +1,6 @@
 class solution:
     
-    s = 'ab'
+    s = 'abc'
     t = 'ahbgdc'
     
     def isSubsequence(s, t):
@@ -11,19 +11,20 @@ class solution:
         i = 0
         a = 0
         
-        while i < len(t):
+        if len(s) == 0:
+            return False
+        
+        while i < len(t) + 1:
+            if sS[a] == tS[i]:
+                a += 1
+            
             if a == len(s):
                 print('return-', True)
                 return True
             
-            if sS[a] == tS[i]:
-                a += 1
-            
             i += 1
 
-        return False
-        
-        
+        return False   
         
     isSubsequence(s, t)
             
