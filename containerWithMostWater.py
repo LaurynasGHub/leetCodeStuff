@@ -45,7 +45,7 @@ class solution:
         # one pointer comes in from the end of the array (right), other comes in from the start (left)
         while left < right:
             print('left = ', left, 'right = ', right)
-            # calculate area starting from the end, get min number between left and right and multiply by their difference
+            # calculate area starting from the end, get min number between left and right and multiply by space between them
             currentArea = min(height[left], height[right]) * (right - left)
             maxArea = max(maxArea, currentArea)
 
