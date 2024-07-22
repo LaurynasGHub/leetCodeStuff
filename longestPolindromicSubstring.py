@@ -27,3 +27,26 @@ class Solution:
                 left += 1
 
     longestPolindrome(s)
+
+    # Expand from centers solution
+    def longestPalindrome(self, s):
+        # function finds the string
+        def expand(l, r):
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                l -= 1
+                r += 1
+            return s[l+1:r]
+
+        # result always holds the longest string encountered so far
+        result = ""
+        # go trough input array
+        for i in range(len(s)):
+            # check when the string length is odd
+            sub1 = expand(i, i)
+            if len(sub1) > len(result):
+                result = sub1
+            # check when the string length is even
+            sub2 = expand(i, i+1)
+            if len(sub2) > len(result):
+                result = sub2
+        return result
