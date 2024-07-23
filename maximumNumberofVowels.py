@@ -20,3 +20,26 @@ class Solution:
                 mVow = vCount
             
         return mVow
+
+    # second method, no errors
+    def maxVowels2(self, s):
+        # vowels = ['a', 'e', 'i', 'o', 'u']
+        vowels ='aeiou'
+        cVow = 0
+
+        for i in s[:k]:
+            if i in vowels:
+                cVow += 1
+
+        mVow = cVow
+
+        for i in range(k, len(s)):
+            if s[i - k] in vowels:
+                cVow -= 1
+            
+            if s[i] in vowels:
+                cVow += 1
+            
+            mVow = max(mVow, cVow)
+        
+        return mVow
