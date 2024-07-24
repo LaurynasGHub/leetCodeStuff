@@ -1,3 +1,7 @@
+//
+// QUESTION no. 605
+// METHODS- Array, Greedy
+// 
 function canPlaceFlowers (flowerbed, n) {
     let plantPlaces = 0;
 
