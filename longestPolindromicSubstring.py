@@ -1,5 +1,8 @@
-# my solution doesn't work with edge cases
-
+#
+# QUESTION no- 5
+# METHODS- Two Pointers, Dynamic Programming
+# 
+# my solution, doesn't work with edge cases
 class Solution:
   s = "aacabdkacaa"
   
