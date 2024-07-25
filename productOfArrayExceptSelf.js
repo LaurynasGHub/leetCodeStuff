@@ -1,3 +1,7 @@
+// 
+// QUESTION no- 238
+// METHODS- Prefix Sum, Array
+// 
 const nums = [1, 2, 3, 4];
 
 // my solution, works, but on testcase 18 gives time limit exceeded error
