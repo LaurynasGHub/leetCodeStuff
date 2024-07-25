@@ -1,3 +1,7 @@
+//
+// QUESTION no- 1431
+// METHODS- Array
+//
 const candies = [2, 3, 5, 1, 3];
 const extraCandies = 3;
 
