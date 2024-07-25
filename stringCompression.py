@@ -1,7 +1,10 @@
+# 
+# QUESTION no- 443
+# METHODS- Two Pointers, String
+# 
 # this solutions returns what is expected but gives some compiler error
 # compiler problem is on leetcode side
 # still can't completely understand the problem
-
 class solution:
     
     chars = ["a","a","b","b","c","c","c"]
