@@ -1,3 +1,7 @@
+// 
+// QUESTION no- 345
+// METHODS- Two Pointers, String
+// 
 const s = 'hello';
 
 function reverseVowels(s) {
