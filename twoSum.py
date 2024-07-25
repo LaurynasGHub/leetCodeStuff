@@ -1,3 +1,7 @@
+# 
+# QUESTION no- 1
+# METHODS- Hash Table, Array
+# 
 class Solution:
     def twoSum(self, nums):
         seen = {}
