@@ -1,3 +1,7 @@
+# 
+# QUESTION no- 26
+# METHODS- Two Pointers, Array
+# 
 class Solution:
   nums = [1, 1, 2]
   nums2 = [0,0,1,1,1,2,2,3,3,4]
