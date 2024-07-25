@@ -1,8 +1,9 @@
+#
+# QUESTION no. 55
+# METHODS- Greedy
+#
 class Solution:
-    #
-    # QUESTION no. 55
-    # METHODS- Greedy
-    #
+
     def canJump(self, nums: List[int]) -> bool:
         goal = len(nums) - 1
 
