@@ -1,3 +1,7 @@
+// 
+// QUESTION no- 151
+// METHODS- Two Pointers, String
+// 
 const s = " Hello   World  "
 
 function reverseWordsInStrin(s){
