@@ -1,3 +1,7 @@
+// 
+// QUESTION no- 1768
+// METHODS- Two Pointers
+// 
 var word1 = 'chair';
 var word2 = 'kebabas';
 
