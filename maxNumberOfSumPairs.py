@@ -1,3 +1,7 @@
+# 
+# QUESTION no- 1679
+# METHODS- Hash Table, Two Pointers, Array
+# 
 class solution:
     
     nums = [1,2,3,4]
