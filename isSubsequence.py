@@ -1,3 +1,7 @@
+#
+# QUESTION no- 392
+# METHODS- Two Pointers, Dynamic Programming, String
+#
 class solution:
     
     s = 'abc'
