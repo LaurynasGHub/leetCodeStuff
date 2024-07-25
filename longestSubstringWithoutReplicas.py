@@ -1,5 +1,8 @@
+# 
+# QUESTION no- 3
+# METHODS- Hash Table, Sliding Window
+# 
 class Solution:
-    # METHODS- Hash Table, Sliding Window
     # first idea and try to solve this question
     def lengthOfLongestSubstring(self, s) -> int:
         seen = {}
