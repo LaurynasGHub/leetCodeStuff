@@ -1,3 +1,7 @@
+//
+// QUESTION no- 1071
+// METHODS- String, Math
+//
 var str1 = 'AABCABDCABCA';
 var str2 = 'ABAB';
 
